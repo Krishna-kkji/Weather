@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffefe;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("pexels-johannes-plenio-1118873.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.weather-container {
+    background-color: #909090d8;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #acf260ef;
+}
+
+#weatherInfo {
+    font-size: 18px;
+}
+
+
+
+#weatherImage {
+    width: 150px;
+    height: 150px;
+}
